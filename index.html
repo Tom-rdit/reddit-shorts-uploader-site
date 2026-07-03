@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reddit Shorts Uploader</title>
+    <meta
+      name="description"
+      content="A private desktop tool for uploading owner-generated YouTube Shorts with the YouTube Data API."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">Reddit Shorts Uploader</a>
+        <div class="links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Private creator automation</p>
+        <h1>Reddit Shorts Uploader</h1>
+        <p class="summary">
+          A small desktop script used by the channel owner to upload
+          self-generated vertical Shorts videos to the owner's own YouTube
+          channel.
+        </p>
+      </section>
+
+      <section class="grid" aria-label="Application summary">
+        <div class="item">
+          <strong>Purpose</strong>
+          <p>
+            Upload rendered short-form videos from a local computer to the
+            authenticated YouTube channel.
+          </p>
+        </div>
+        <div class="item">
+          <strong>API usage</strong>
+          <p>
+            Uses OAuth authorization and the YouTube Data API
+            <code>videos.insert</code> upload endpoint.
+          </p>
+        </div>
+        <div class="item">
+          <strong>Data handling</strong>
+          <p>
+            Stores only local OAuth credentials needed to keep the uploader
+            authorized on the creator's machine.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>How the Tool Works</h2>
+        <p>
+          The uploader is run locally by the creator. The creator selects a
+          video file, signs in with Google OAuth, grants YouTube upload
+          permission, and the tool uploads the selected video with title,
+          description, tag, category, audience, and privacy metadata.
+        </p>
+        <p>
+          The application does not scrape YouTube, collect analytics from other
+          channels, access third-party accounts, sell user data, or provide a
+          public upload service for other users.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        Reddit Shorts Uploader is an independent tool and is not affiliated with
+        YouTube, Google, or Reddit.
+      </div>
+    </footer>
+  </body>
+</html>

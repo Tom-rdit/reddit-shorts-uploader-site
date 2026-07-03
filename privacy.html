@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy | Reddit Shorts Uploader</title>
+    <meta
+      name="description"
+      content="Privacy policy for Reddit Shorts Uploader."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">Reddit Shorts Uploader</a>
+        <div class="links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="doc">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: July 3, 2026</p>
+
+      <p>
+        Reddit Shorts Uploader is a private desktop tool used by the channel
+        owner to upload self-generated videos to the owner's own YouTube
+        channel through the YouTube Data API.
+      </p>
+
+      <h2>Information Accessed</h2>
+      <p>
+        The application requests the YouTube upload OAuth scope:
+        <code>https://www.googleapis.com/auth/youtube.upload</code>. This scope
+        allows the application to upload videos to the authenticated user's
+        YouTube channel.
+      </p>
+
+      <h2>Information Stored</h2>
+      <p>
+        The application stores OAuth credentials locally on the creator's
+        computer so the creator does not need to sign in every time. The
+        application does not operate a remote server and does not store OAuth
+        credentials in a third-party database.
+      </p>
+
+      <h2>How Information Is Used</h2>
+      <p>
+        OAuth credentials are used only to authorize video uploads selected by
+        the creator. Video metadata such as title, description, tags, category,
+        audience status, and privacy status is sent to YouTube as part of the
+        upload request.
+      </p>
+
+      <h2>Information Sharing</h2>
+      <p>
+        The application does not sell, rent, or share user data. Information is
+        sent to Google/YouTube only as needed to complete OAuth authorization
+        and YouTube video uploads.
+      </p>
+
+      <h2>Revoking Access</h2>
+      <p>
+        Users can revoke the application's access at any time from their Google
+        account security permissions page:
+        <a href="https://security.google.com/settings/security/permissions">
+          https://security.google.com/settings/security/permissions
+        </a>.
+      </p>
+
+      <h2>Deleting Local Data</h2>
+      <p>
+        To remove local authorization data, delete the local token file created
+        by the uploader, usually located at
+        <code>config/youtube_upload_token.json</code>. The creator can also
+        delete the OAuth client secret file from their local project folder.
+      </p>
+
+      <h2>Google Privacy Policy</h2>
+      <p>
+        Data sent to Google and YouTube is handled according to Google's Privacy
+        Policy:
+        <a href="https://policies.google.com/privacy">
+          https://policies.google.com/privacy
+        </a>.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact the owner of the GitHub repository where
+        this website is published.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        Reddit Shorts Uploader is an independent tool and is not affiliated with
+        YouTube, Google, or Reddit.
+      </div>
+    </footer>
+  </body>
+</html>
