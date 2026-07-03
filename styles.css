@@ -76,23 +76,23 @@ main {
 .youtube-mark {
   align-items: center;
   display: inline-flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .youtube-logo {
   align-items: center;
-  background: #ff0033;
-  border-radius: 7px;
+  background: var(--accent);
+  border-radius: 4px;
   display: inline-flex;
-  height: 28px;
+  height: 16px;
   justify-content: center;
-  width: 40px;
+  width: 23px;
 }
 
 .youtube-logo svg {
   display: block;
-  height: 15px;
-  width: 15px;
+  height: 9px;
+  width: 9px;
 }
 
 .eyebrow {
